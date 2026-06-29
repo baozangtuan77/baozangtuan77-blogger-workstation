@@ -1,5 +1,7 @@
 # 博主AI工作台 · blogger-ai-workstation
 
+[![install](https://img.shields.io/badge/install-npx_skills_add-black?logo=npm&logoColor=white)](https://github.com/baozangtuan77/baozangtuan77-blogger-workstation) [![agents](https://img.shields.io/badge/agents-Claude_Code_·_Codex_·_Cursor_·_70%2B-6E56CF)](https://github.com/vercel-labs/skills) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 > 一套给小红书内容创作者（尤其母婴 / 家居博主）的 AI 内容工作台：选题、写稿、拆片、复盘、商单、定位诊断——**13 个能力**，每个都内置"懂品牌投放 + 带过几百个博主"的操盘手判断力。
 >
 > 作者：**宝藏团七七**（GitHub [@baozangtuan77](https://github.com/baozangtuan77)）

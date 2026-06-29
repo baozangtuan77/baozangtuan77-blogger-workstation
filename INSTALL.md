@@ -1,6 +1,18 @@
 # 安装 / 使用
 
-这套工作台有两种用法，挑适合你的。
+这套工作台有三种用法，挑适合你的。
+
+## 方式零：一行命令装进 Agent（最快，推荐用 Claude Code / Codex / Cursor 等）
+
+```bash
+npx skills add baozangtuan77/baozangtuan77-blogger-workstation
+```
+
+借助 [`skills` CLI](https://github.com/vercel-labs/skills)（支持 70+ 个 agent），它会自动把 skill 装进你 agent 的 skills 目录，不用你管路径。默认装到项目级，想全局可用加 `-g`，跳过确认加 `-y`。
+
+**装完必做一步**：进 skill 目录 `cp config.example.yaml config.yaml`，填好《我的账号档案》——`npx skills add` 不会替你做这步。
+
+> 想手动控制路径、或 agent 不在 `skills` CLI 支持列表里 → 看下面「方式二」。
 
 ## 方式一：直接粘进对话 AI（最简单，给博主）
 

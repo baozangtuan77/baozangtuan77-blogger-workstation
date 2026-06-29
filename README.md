@@ -11,7 +11,19 @@
 ## 谁用 · 怎么用
 
 - **你是博主（最常见）**：填一次《我的账号档案》（见 `config.example.yaml`），用某个能力时，把档案 + 你的素材一起发给 AI（豆包 / Claude / 任意对话 AI）。
-- **你用 Claude Code / Agent**：把 skill 装上，直接说你要干嘛，它读 `SKILL.md` 自动路由到对应能力。详见 `INSTALL.md`。
+- **你用 Claude Code / Codex / Cursor 等 Agent**：一行命令装好（见下），直接说你要干嘛，它读 `SKILL.md` 自动路由到对应能力。
+
+## 安装（一行，支持 70+ 个 Agent）
+
+```bash
+npx skills add baozangtuan77/baozangtuan77-blogger-workstation
+```
+
+借助 [`skills` CLI](https://github.com/vercel-labs/skills)（Claude Code / Codex / Cursor / Cline / Gemini / Copilot / Windsurf 等都支持），它会自动装进你 Agent 的 skills 目录。默认装到项目级，想全局可用加 `-g`。
+
+> 装完记得 **填配置**：进 skill 目录 `cp config.example.yaml config.yaml`，照着填好《我的账号档案》（不会填看 `examples/` 里的母婴 / 家居示范）。
+>
+> 不想用 CLI？手动安装（clone + 软链）和"直接粘进对话 AI"两种方式见 [`INSTALL.md`](./INSTALL.md)。
 
 ## 13 个能力
 
